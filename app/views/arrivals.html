@@ -1,0 +1,48 @@
+<div>
+	<h2>{{greeting}}</h2>
+	<md-button class="md-raised md-primary" ng-click="callAPI()">Call API</md-button>
+	<div>
+		<md-card>
+			<md-card-title>
+				<md-card-title-text>
+					<span class="md-headline">Arrivals</span>
+					<span class="md-subhead">This is the Arrivals Page!</span>
+				</md-card-title-text>
+			</md-card-title>
+			
+			<md-card-content>
+				<div layout="row" layout-align="space-between center">
+					<span>What is your favorite weapon?</span>
+					<md-select ng-model="weapon" placeholder="Weapon" class="md-no-underline">
+						<md-option value="axe">Axe</md-option>
+						<md-option value="sword">Sword</md-option>
+						<md-option value="wand">Wand</md-option>
+						<md-option value="pen">Pen?</md-option>
+					</md-select>
+				</div>
+				
+				<div layout="row" layout-align="space-between center">
+					<span>What armor do you wear?</span>
+					<md-select ng-model="armor" placeholder="Armor" class="md-no-underline" required md-no-asterisk="false">
+						<md-option value="cloth">Cloth</md-option>
+						<md-option value="leather">Leather</md-option>
+						<md-option value="chain">Chainmail</md-option>
+						<md-option value="plate">Plate</md-option>
+					</md-select>
+				</div>
+				
+				<div layout="row" layout-align="space-between center">
+					<span>How do you refresh your magic?</span>
+					<md-select ng-model="drink" placeholder="Drink" class="md-no-underline">
+						<md-option value="water">Water</md-option>
+						<md-option value="juice">Juice</md-option>
+						<md-option value="milk">Milk</md-option>
+						<md-option value="wine">Wine</md-option>
+						<md-option value="mead">Mead</md-option>
+					</md-select>
+				</div>
+			</md-card-content>
+		</md-card>
+	</div>
+	<!--<div ng-include="'views/includes/navarrows.html'"></div>-->
+</div>
