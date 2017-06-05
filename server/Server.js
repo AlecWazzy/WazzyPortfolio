@@ -13,6 +13,6 @@
 	app.use(express.static(rootPath + '/app'));
 	app.use('/lib', express.static(rootPath + '/node_modules'));
 	
-	app.listen(8080);
-	console.log('Listening on port 8080...');
+	app.listen(3000);
+	console.log('Listening on port 3000...');
 })();
