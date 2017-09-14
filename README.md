@@ -1,4 +1,4 @@
-# WazzyPortfolio
+# WazzyTravel
 Tinkering with new technologies to grow as a software developer.
 
 To start the server, run server/server.js with NodeJS.
